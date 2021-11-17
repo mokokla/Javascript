@@ -1,0 +1,70 @@
+.wrapper{
+    margin: 0px;
+    font: 0.9em sans-serif;
+}
+
+.top{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: darkred;
+    color: white;
+    width: 100%;
+    height:30px;
+    padding-top: 10px;
+}
+.ORF_im_Überblick{
+    padding-left: 30px;
+}
+
+.logo{
+    background-color: red;
+    display: flex;
+    padding: 20px;
+    font: 2em sans-serif;
+    
+}
+.downinfo{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    color:white;
+    justify-content: space-evenly;
+    background-color: darkred;
+    height:25px;
+    padding-top: 7px;
+}
+.logoregional{
+    color: white;
+    
+}
+.logonational{
+    color: black;
+    
+}
+.image{
+    background-image:url('orf.jpg');
+    height: 400px;
+    display: flex;
+
+}
+
+.mainarticle{
+    background-color: white;
+    height:300px;
+    width:460px;
+    position: relative;
+    left: 15%;
+    top:-120px;
+    padding: 10px;
+}
+.articletop{
+    color: gray;
+}
+.articledown{
+    position:relative;
+    top:10px;
+}
+h1{
+    font: 1.5em sans-serif;
+    font-weight: bold;
+}
