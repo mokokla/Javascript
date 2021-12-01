@@ -52,5 +52,6 @@ function calculateOutputamount() {
         }
     }
     outputamount= (getAmountOfInputcurrency()*inputCurrencyConversionFactor)/outputCurrencyConversionFactor;
+    outputamount= outputamount.toFixed(2);
     return outputamount;
 }

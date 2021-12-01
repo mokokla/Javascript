@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    --main-background-color: orangered;
+}
+
+.main{
+    background-color: purple;
+    height: 45.1rem;
+    width: 100%;
+    display: flex;
+}
+
+.enemies{
+    background-color: var(--main-background-color);
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enemy1{
+    width: 100%;
+    height: 100%;
+}
+
+.buttons{
+    background-color: var(--main-background-color);
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    background-color: slategrey;
+    height: 20%;
+    width: 100%;
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chars{
+    background-color: var(--main-background-color);
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#char1{
+    width: 100%;
+    height: 100%;
+}
+
+.font{
+    font-size: 5rem;
+}
+
+.button:hover{
+    color: orange;
+}^
