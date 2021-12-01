@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Währungsrechner</title>
+    <link rel="icon" href="https://img.icons8.com/material-outlined/452/money--v1.png">
+</head>
+<body>
+    <div class="top">
+        <div class="header"><h1>Currency Calculator</h1></div>
+        <div class="header2"><h2>How much is your money worth?</h2></div>
+    
+    </div>
+    
+    <div class="content">
+        <div class="input">
+        <input type="text" id="txtHowMuch" placeholder="Enter Amount of Money">
+        <select name="curencyInput" id="currencyInput">
+            <option value="euro">Euro</option>
+            <option value="US-Dollar">US-Dollar</option>
+            <option value="peso">Peso</option>
+            <option value="won">Südkoreanischer Won</option>
+            <option value="yen">Japanischer Yen</option>
+            <option value="franken">Schweizer Franken</option>
+          </select>
+          <br>
+          <div class="equals"><p>=</p></div>
+          
+        </div>
+        <div class="output">
+            <div class="outputamount"><text id="outputamount">0</text></div>
+            <div class="selectoutputcurrency">
+          <select name="currencyInput" id="currencyOutput">
+            <option value="euro">Euro</option>
+            <option value="US-Dollar">US-Dollar</option>
+            <option value="peso">Peso</option>
+            <option value="won">Südkoreanischer Won</option>
+            <option value="yen">Japanischer Yen</option>
+            <option value="franken">Schweizer Franken</option>
+          </select>
+        </div>
+          
+        </div>
+        
+        <button id="calculate">Calculate</button>
+    </div>
+    
+</body>
+</html>

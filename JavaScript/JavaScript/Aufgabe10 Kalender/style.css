@@ -1,0 +1,21 @@
+*{
+    font: 1.2em sans-serif;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    width: 500px;
+}
+.nextmonth{
+    position: relative;
+    right: -20px;
+    
+}
+.previousmonth{
+    position: relative;
+    right: 20px;
+}
+.Months{
+    font: 1.6em sans-serif;
+}

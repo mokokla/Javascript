@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js" defer></script>
+    <title>Schere Stein Papier</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://banner2.cleanpng.com/20180612/avw/kisspng-hand-rockpaperscissors-computer-icons-clip-a-botten-5b207ab13ddf51.5333045115288552172534.jpg">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header"><h1>Play Scissors-Stone-Paper</h1></div>
+        <div class="content">
+        <div class="input">
+            <p>You</p>
+            <div class="image1">
+                <img src= "assets/rock.png" alt="">
+            </div>
+    <select name="playerInput" id="playerInput">
+        <option value="scissors">Scissors</option>
+        <option value="Rock">Rock</option>
+        <option value="paper">Paper</option>
+        <option value="lizzard">Lizzard</option>
+        <option value="spock">Spock</option>
+      </select>
+    </div>
+    <div class="output">
+        <p>Your opponent</p>
+        <div class="image2"></div>
+    <select name="computerOutput" id="computerInput" disabled>
+        <option value="scissors">Scissors</option>
+        <option value="stone">Stone</option>
+        <option value="paper">Paper</option>
+        <option value="lizzard">Lizzard</option>
+        <option value="spock">Spock</option>
+      </select>
+</div>
+</div>
+      <button id="fight">Fight!!!</button>
+    </div>
+</body>
+</html>

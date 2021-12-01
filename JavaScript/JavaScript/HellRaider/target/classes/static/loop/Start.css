@@ -1,0 +1,46 @@
+html{
+    background: orangered;
+}
+
+.Schrift{
+    color: bisque;
+    font-size: 60px;
+}
+
+.Schrift:hover {
+    color: red;
+}
+
+#game{
+    background: dimgrey;
+    height: 100px;
+    width: 600px;
+    margin-top: 14em;
+    margin-left: 380px;
+}
+
+#settings{
+    background: dimgrey;
+    height: 100px;
+    width: 600px;
+    margin-left: 380px;
+    margin-top: 4em;
+}
+
+#settingsback{
+    background: dimgrey;
+    height: 100px;
+    width: 600px;
+    margin-left: 380px;
+    margin-top: 33em;
+}
+
+#enemy1front {
+    margin-top: -400px;
+    margin-left: 30px;
+}
+
+#playerfront{
+    margin-top: -350px;
+    margin-left: 990px;
+}
