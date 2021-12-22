@@ -16,11 +16,11 @@
         <div class="input">
             <p>You</p>
             <div class="image1">
-                <img src= "assets/rock.png" alt="" id="playerPicture">
+                <img src= "assets/nothing.png" alt="" id="playerPicture">
             </div>
     <select name="playerInput" id="playerInput">
         <option value="scissors">Scissors</option>
-        <option value="Rock">Rock</option>
+        <option value="rock">Rock</option>
         <option value="paper">Paper</option>
         <option value="lizzard">Lizzard</option>
         <option value="spock">Spock</option>
@@ -28,7 +28,9 @@
     </div>
     <div class="output">
         <p>Your opponent</p>
-        <div class="image2"></div>
+        <div class="image2">
+            <img2 src= "assets/nothing.png" alt="" id="opponentPicture">
+        </div>
     <select name="computerOutput" id="computerInput" disabled>
         <option value="scissors">Scissors</option>
         <option value="stone">Stone</option>
@@ -38,7 +40,7 @@
       </select>
 </div>
 </div>
-      <button id="fight">Fight!!!</button>
+      <button onclick="fight()">Fight!!!</button>
     </div>
 </body>
 </html>
