@@ -1,0 +1,178 @@
+.broughtBy{
+padding-top: 30px;
+width: 608px;
+height: 52px;
+left: 670px;
+top: 43px;
+
+font-family: Rounded Mplus 1c Bold;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 52px;
+color: #E76F51;
+}
+.top{
+position: absolute;
+display:flex;
+justify-content: flex-start;
+width: 1440px;
+height: 130px;
+left: 0px;
+top: 0px;
+
+background: #83C5BE;
+border-radius: 0px;
+}
+.logo{
+    margin-right: 60px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    width: 480px;
+    height: 85px;
+    left: 74px;
+    top: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 82px;
+    color: #006D77;
+    text-shadow: 0px 14px 4px rgba(0, 0, 0, 0.25); 
+}
+.country{
+width: 96px;
+height: 35px;
+left: 190px;
+top: 89px;
+margin-left: 50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+}
+.menu{
+position: absolute;
+width: 381px;
+height: 894px;
+left: 0px;
+top: 130px;
+background: #2A9D8F
+}
+.internationalGames{
+    width: 270px;
+    height: 35px;
+    left: 65px;
+    top: 204px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #EDF6F9; 
+    background-color: #E29578;
+    margin-top: 50px;
+}
+.NationalLeague{
+width: 270px;
+height: 35px;
+left: 65px;
+top: 204px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #EDF6F9;
+background-color: #E29578;
+margin-top: 23px;
+}
+.MostRecently{
+width: 270px;
+height: 35px;
+left: 65px;
+top: 204px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #EDF6F9;
+background-color: #E29578;
+margin-top: 23px;
+}
+.PopularThisMonth{
+width: 270px;
+height: 35px;
+left: 65px;
+top: 204px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #EDF6F9;
+background-color: #E29578;
+margin-top: 23px;
+}
+.SpiritInTheSky{
+    width: 270px;
+height: 35px;
+left: 65px;
+top: 204px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #EDF6F9;
+background-color: #E29578;
+margin-top: 23px;
+}
+.PodcastsAboutUs{
+    width: 270px;
+height: 35px;
+left: 65px;
+top: 204px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #EDF6F9;
+background-color: #E29578;
+margin-top: 23px;
+}
+.BallBoy{
+width: 270px;
+height: 35px;
+left: 65px;
+top: 204px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #EDF6F9;
+background-color: #E29578;
+margin-top: 23px;
+}
+.Pressportal{
+width: 270px;
+height: 35px;
+left: 65px;
+top: 204px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+color: #EDF6F9;
+background-color: #E29578;
+margin-top: 23px;
+}
+.down{
+    display: flex;
+    justify-content: flex-start;
+}
