@@ -13,7 +13,6 @@ line-height: 52px;
 color: #E76F51;
 }
 .top{
-position: absolute;
 display:flex;
 justify-content: flex-start;
 width: 1440px;
@@ -53,7 +52,7 @@ font-size: 30px;
 line-height: 35px;
 }
 .menu{
-position: absolute;
+
 width: 381px;
 height: 894px;
 left: 0px;
@@ -175,4 +174,10 @@ margin-top: 23px;
 .down{
     display: flex;
     justify-content: flex-start;
+}
+.picture{
+    background-image: url(3271957-66956408-2560-1440.jpg); 
+    border-style: solid;
+    width: 400px;
+    
 }
