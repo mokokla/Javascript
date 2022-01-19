@@ -54,7 +54,7 @@ line-height: 35px;
 .menu{
 
 width: 381px;
-height: 894px;
+height: 672px;
 left: 0px;
 top: 130px;
 background: #2A9D8F
@@ -176,8 +176,9 @@ margin-top: 23px;
     justify-content: flex-start;
 }
 .picture{
-    background-image: url(3271957-66956408-2560-1440.jpg); 
+    background-image: url(Frontpicture.png); 
     border-style: solid;
-    width: 400px;
+    width: 1059px;
+    height: 672px;
     
 }
