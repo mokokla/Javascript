@@ -31,35 +31,41 @@ function getPlayersInput(){
     }
 }
 function generateRandomOpponentCharakter(){
-    let randomFighter= Math.floor(Math.random()*5) +1;
-    if(randomFighter==1){
+    let randomFighterNumber= Math.floor(Math.random()*5) +1;
+    if(randomFighterNumber==1){
         let img2 = document.getElementById('opponentPicture').innerHTML=`
         <img src= "assets/scissors.png" >
         `;
     }
-    if(randomFighter==2){
+    if(randomFighterNumber==2){
         let img2 = document.getElementById('opponentPicture').innerHTML=`
         <img src= "assets/rock.png" >
         `;
     }
-    if(randomFighter==3){
+    if(randomFighterNumber==3){
         let img2 = document.getElementById('opponentPicture').innerHTML=`
         <img src= "assets/paper.png" >
         `;
     }
-    if(randomFighter==4){
+    if(randomFighterNumber==4){
         let img2 = document.getElementById('opponentPicture').innerHTML=`
         <img src= "assets/lizzard.png" >
         `;
     }
-    if(randomFighter==5){
+    if(randomFighterNumber==5){
         let img2 = document.getElementById('opponentPicture').innerHTML=`
         <img src= "assets/spock.png" >
         `;
     }
+    return randomFighterNumber;
 }
 function getWinner(){
     var choosenFighter = document.getElementById("playerInput").value;
-    console.log()
+    var randomfighter = generateRandomOpponentCharakter()
+    console.log(randomfighter)
+    var hasPlayerWon= false;
+    //let opponentchar = ["scissors","rock","paper","lizzard","spock"]
+    //array.forEach(element => {  
+    //});
 }
 
