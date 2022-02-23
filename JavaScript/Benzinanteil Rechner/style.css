@@ -1,0 +1,110 @@
+.top{
+    border-style: solid;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color:rgb(255, 242, 190);
+   
+}
+.header{
+    color: darkgreen;
+    font: 0.9em small-caps;
+}
+.header2{
+    color: green;
+    font: 0.7em sans-serif;
+}
+.content{
+    border-style: solid;
+    text-align: center;
+    padding-top: 5%;
+    border-top-width: 0ch;
+    background-color:grey;
+    padding-left:15%;
+}
+.input{
+    padding-top: 0px;
+    border-style: solid;
+    background-color: goldenrod;
+    height:70%;
+    width:90%;
+    
+}
+.output{
+    justify-content:space-around;
+    display: flex;
+    margin-bottom: 4%;
+    height: 30px;
+    width: 65%;
+    background-color:lightyellow;
+    margin-top:4%;
+}
+.outputamount{
+    border-style: solid;
+    border-width: 1px;
+    width: 105px;
+    text-align: left;
+    margin-right: 4px;
+    background-color: white;
+}
+.kilometerstart{
+    padding-bottom: 2px;
+    padding-top:2px;
+}
+.kilometerende{
+    padding-bottom: 10px;
+}
+.moneypaid{
+    padding-bottom: 15px;
+
+}
+
+.fahrt1{
+    display: flex;
+    justify-content: center;
+}
+.fahrt2{
+    display: flex;
+    justify-content: center;
+}
+.fahrt3{
+    display: flex;
+    justify-content: center;
+}
+.fahrt4{
+    display: flex;
+    justify-content: center;
+}
+.fahrt5{
+    display: flex;
+    justify-content: center;
+}
+.fahrt6{
+    display: flex;
+    justify-content: center;
+}
+.fahrt7{
+    display: flex;
+    justify-content: center;
+}
+.fahrt1{
+    display: flex;
+    justify-content: center;
+}
+.fahrt8{
+    display: flex;
+    justify-content: center;
+}
+.fahrt9{
+    display: flex;
+    justify-content: center;
+}
+.fahrt10{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
