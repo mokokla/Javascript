@@ -1,3 +1,11 @@
-.heading{
-    background-color: green;
+button{
+    background-color: rgb(41, 168, 41);
+    width: 20%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    padding-top:13px;
+    border-style: none;
 }

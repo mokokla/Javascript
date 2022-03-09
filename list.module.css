@@ -1,0 +1,12 @@
+.divshoppinglist{
+    width:1px;
+}
+li{
+    margin: 3px;
+    background-color: blue;
+    height: 45px;
+    width: 170px;
+    list-style: none;
+    justify-content: right;
+    color:white;
+}
