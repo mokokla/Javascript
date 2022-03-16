@@ -1,6 +1,14 @@
 .card{
-width:100px;
-height:200px;
-background-color: black;
+width: 200px;
+height:300px;
+background-color: grey;
 border-style: solid;
+margin-left: 40px;
+}
+.cardpic{
+    width: 195px;
+    height: 200px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    border-style: solid;
 }
