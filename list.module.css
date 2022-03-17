@@ -10,3 +10,6 @@ li{
     justify-content: right;
     color:white;
 }
+li:hover{
+    cursor: pointer;
+}
