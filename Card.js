@@ -9,7 +9,7 @@ export default class Card extends Component{
             <img src={"the-big-lebowski-the-dude-couch-900x474.jpg"} alt="pic"/>
             </div>
            <b>Moritz Schneider</b>
-           <p>proffessional chiller</p>
+           <p>Proffessional chiller</p>
             </div>
     }
 }
